@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body{
+  width: 100%;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 3.8rem;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  line-height: 1.4rem;
+  padding: 0;
+  margin: 0;
+}
+
+/* header Section */
+
+/* information bar */
+
+.container.info-container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container.info-container .info-logo img{
+  width: 200px;
+}
+
+
+.detail-box{
+  display: flex;
+  align-items: center;
+}
+
+.emergency{
+  width: 40%;
+  max-width: 220px;
+}
+
+.address{
+  width: 60%;
+  max-width: 330px;
+}
+
+.detail-box .first-line{
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.detail-box .second-line{
+  font-weight: 600;
+}
+
+.emg-info .second-line{
+  color:rgba(255,0,0,0.8);
+}
+
+.add-info .second-line{
+  color: rgba(0,0,0,0.7);
+}
+
+.detail-box i{
+  padding-right: 20px;
+  color: rgba(0,0,0,0.3);
+}
+
+/* Navigation Bar */
+#navbar{
+  background: #0A55A1;
+  padding: 0;
+}
+
+.container.nav-it-container{
+  width: 80%;
+}
+
+.container a img{
+  display: none;
+  width: 150px;
+}
+
+.nav-item{
+  padding: 0;
+}
+.nav-link{
+  padding: 10px;
+  margin: 0;
+  text-align: left;
+  font-size: 18px;
+  color: #fff !important;
+}
+
+.nav-item:hover{
+  /* background-color: rgba(255,255,255,0.2) !important; */
+}
+
+
+/* main Section */
+
+/* landing Section */
+
+.landing-section{
+  background-color: #0A55A1;
+}
+
+.container.landing-container{
+  width: 80%;
+  padding: 70px 0 100px;
+  position:relative;
+}
+
+.landing-container p{
+  color: rgba(255, 255, 255,0.75);
+  font-weight: 400;
+  padding: 10px 100px 60px 0;
+  line-height: 1.5rem;
+}
+
+.content-box{
+  padding: 0;
+}
+.content-box a{
+  text-decoration: none;
+  color: #fff;
+}
+.bttn{
+  background: #999;
+  padding: 15px 40px;
+  border-radius: 30px;
+}
+
+.bttn-cont{
+  border: 2px solid #fff;
+  background:transparent;
+  margin-left: 20px;
+}
+
+.img-box{
+  padding: 0;
+  width:49%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.img-box img{
+  width:100%;
+  bottom: 0;
+}
+
+
+/* Departments Grid Section */
+#departments{
+  background: #f8f8fb;
+}
+
+.container.depart-container{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 70px 0 100px;
+}
+
+.depart-item{
+  background-color: #fff;
+  width: 340px;
+  height: 190px;
+  border-radius: 0.4rem;
+  padding: 0 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.depart-item:hover{
+  background-color: #0A55A1;
+  color: #fff;
+  transition:all 1s;
+}
+
+.depart-item h3 a{
+  text-decoration: none;
+  
+}
+
+.depart-item h3{
+  padding: 0;
+  margin: 0;
+  color: #0A55A1;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.depart-item h3 a:hover{
+  color: #fff;
+}
+
+#departments h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 2.75rem;
+  color: #002438;
+  margin: 0 0 60px;
+  padding: 0;
+}
+
+
+/* testimonial section */
+
+#testimonials{
+  background:#0A55A1;
+  padding: 100px 0;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+#testimonials h2{
+  ont-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 2.75rem;
+  color: rgba(255,255,255,0.8);
+  margin: 0 0 60px;
+  padding: 0;
+}
+
+#testimonialcarousel{
+  text-align: left;
+  color: #88888;
+  width: 90%;
+  margin: 0 auto;
+  
+}
+
+.carousel-content{
+  background-color: #fff;
+  padding: 60px;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.carousel-item{
+  padding: 0 15%;
+}
+
+/* Footer */
+
+
+.container.footer-container{
+  width: 80%;
+  margin: 0 auto;
+  padding: 90px 0;
+  line-height: 1.9rem;
+  margin: 0 auto;
+}
+
+.footer-container .quick-links ul{
+  padding: 0;
+}
+.footer-container .quick-links ul li{
+  list-style: none;
+  line-height: 1.5rem;
+}
+.footer-container .quick-links ul li a{
+  text-decoration: none;
+  color: rgba(0,0,0,0.7);
+}
+.logo-footer img{
+  width: 200px;
+}
+
+.container.footer-container h3{
+  padding: 0 0 5px;
+  margin: 0;
+  color: #0A55A1;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.footer-container .location{
+  width: 300px;
+}
+
+.footer-container .location p span{
+  padding: 0 15px 0 0;
+}
+
+footer .copy-right{
+  background: #0A55A1;
+  padding: 20px 10%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.copy-right p{
+  color:#fff;
+}
+
+/* Responsive website */
+/* @media (max-width:1028px){
+  .landing-section .image-box img{
+      display: none;
+      position: absolute;
+  }
+  
+} */
+
+
+
+
+
+
+
+
+/* About Us */
+.about-us{
+  background: beige;
+  padding:50px 0;
+}
+.about-us h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 2.75rem;
+  color: #002438;
+  text-align: center;
+
+}
+.about-container{
+  display: flex;
+  justify-content: space between;
+  align-items: flex-start;
+  width: 80%;
+  margin: 50px auto;
+}
+
+.about-img img{
+  width: 450px;
+}
+
+.about-content{
+  padding: 0 5%;
+}
+
+/* Doctors */
+#doctors{
+  background: #f8f8fb;
+}
+
+.container.doc-container{
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+  padding: 70px 0 100px;
+}
+
+#doctors h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 2.75rem;
+  color: #002438;
+  margin: 0 0 60px;
+  padding: 0;
+  text-align: center;
+}
+
+.doc-info p{
+  color:rgba(0,0,0,0.7);
+}
+
+.doc-info h4{
+  color: #0A55A1;
+  font-weight:500;
+}
+
+/* COntact Us */
+
+#contact-us{
+  background: #f8f8fb;
+}
+
+.container.cont-container{
+  width: 80%;
+  margin: 0 auto;
+  padding: 70px 0 100px;
+}
+
+.container.cont-container h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 2.75rem;
+  color: #002438;
+  text-align: center;
+  margin: 0 0 0 100px;
+}
+
+.cont-content{
+  padding: 70px 0 100px;
+}
+
+.cont-content .cont-ph{
+  border-right: solid #8888 1px;
+}
+
+.cont-content h4{
+  margin-top: 30px;
+}
